@@ -1,0 +1,64 @@
+/*
+	Inserta tu CSS aqui
+*/
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+header{
+	background-image: url("../img/grupal.jpg");
+	height: 740px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+body{
+	font-family: 'Open Sans';
+}
+.sumate{
+	width: 100px;
+	height: 50px;
+	background-color: #FCB738;
+	border-radius: 5px;
+	margin-left: 120px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 15px;
+}
+.logo{
+	width: 450px;
+	margin-left: 150px;
+	margin-top: 90px;
+}
+.menu{
+	margin-top: 70px;
+	padding-left: 100px;
+	font-family: 'Open Sans';
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+.foto{
+	max-width: 100%;
+	padding-top: 20px;
+}
+.titu{
+	padding-top: 10px;
+}
+.ultimo{
+	background: #323230;
+	max-width: 100%;
+	height: 80px;
+	margin-top: 30px;
+}
+.frase{
+	font-family: 'Open Sans';
+	color:white;
+	padding-left: 60px;
+	padding-top:30px; 
+}
